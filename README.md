@@ -1,21 +1,25 @@
 # 📚 StudyBuddy AI
 
-StudyBuddy AI is an AI-powered learning assistant designed to help students learn faster, revise efficiently, and understand concepts with ease. It supports chat-based learning, PDF analysis, image text extraction, code explanations, quizzes, and more.
-
+StudyBuddy AI is an AI-powered learning assistant designed to simplify learning through intelligent conversations. It helps students analyze PDFs and images, interact using voice or text, generate summaries and MCQs, understand programming concepts, and study efficiently with AI-powered assistance.
 ---
 
 ## ✨ Features
 
-- 💬 AI-powered chatbot
+- 💬 AI-powered study assistant
 - 📄 Upload and analyze PDF documents
+- 📚 Multi-document support
 - 🖼️ Extract text from images (OCR)
+- 🎤 Voice input using microphone
 - 🧠 Generate summaries and short notes
-- ❓ Generate MCQs and revision questions
+- ❓ Generate MCQs and revision questions     
 - 💻 Explain programming concepts with syntax-highlighted code
-- 📋 Copy code with one click
+- 📋 Copy individual code blocks with one click
 - 🌙 Dark mode support
 - 💾 Save chat history
 - 🔍 Search previous chats
+- 📝 Automatic chat title generation
+- 🔐 Firebase Authentication
+- ⚡ Real-time AI response streaming
 - 📱 Responsive user interface
 
 ---
@@ -110,13 +114,19 @@ This project uses:
 
 - AI Chat
 - PDF Upload & Analysis
+- Multi-document Support
 - Image OCR
-- Notes Generation
-- Quiz Generation
-- Revision Mode
+- Voice Input
+- Notes & Summary Generation
+- MCQ Generation
 - Code Explanation
+- Syntax Highlighting
+- Code Copy Button
 - Chat History
+- Chat Search
+- Automatic Chat Titles
 - Dark Mode
+- Firebase Authentication
 
 ---
 
