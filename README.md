@@ -1,16 +1,144 @@
-# React + Vite
+# 📚 StudyBuddy AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StudyBuddy AI is an AI-powered learning assistant designed to help students learn faster, revise efficiently, and understand concepts with ease. It supports chat-based learning, PDF analysis, image text extraction, code explanations, quizzes, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 💬 AI-powered chatbot
+- 📄 Upload and analyze PDF documents
+- 🖼️ Extract text from images (OCR)
+- 🧠 Generate summaries and short notes
+- ❓ Generate MCQs and revision questions
+- 💻 Explain programming concepts with syntax-highlighted code
+- 📋 Copy code with one click
+- 🌙 Dark mode support
+- 💾 Save chat history
+- 🔍 Search previous chats
+- 📱 Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend / AI
+- Ollama
+- Qwen2.5:7B
+- Firebase Authentication
+
+### Libraries
+- React Markdown
+- React Syntax Highlighter
+- PDF.js
+- Tesseract.js
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── AskStudyBuddy.jsx
+│   ├── ChatWindow.jsx
+│   ├── MessageBubble.jsx
+│   ├── ChatSidebar.jsx
+│   ├── Header.jsx
+│   ├── InputBox.jsx
+│   ├── PdfUpload.jsx
+│   ├── ImageUpload.jsx
+│   └── ...
+│
+├── assets/
+├── firebase.js
+└── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ashmitha148/StudyBuddy-AI.git
+```
+
+Go to the project
+
+```bash
+cd StudyBuddy-AI
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file and add your Firebase configuration.
+
+Start Ollama and make sure the `qwen2.5:7b` model is installed.
+
+Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🤖 AI Model
+
+This project uses:
+
+- Ollama
+- Qwen2.5:7B
+
+---
+
+## 📸 Main Features
+
+- AI Chat
+- PDF Upload & Analysis
+- Image OCR
+- Notes Generation
+- Quiz Generation
+- Revision Mode
+- Code Explanation
+- Chat History
+- Dark Mode
+
+---
+
+## 📌 Future Improvements
+
+- Voice input
+- Speech output
+- Multiple AI models
+- Cloud chat synchronization
+- Study planner
+- Flashcards
+- Performance analytics
+- Multi-language support
+
+---
+
+## 👩‍💻 Developed By
+
+**Ashmitha**
+
+---
+
+## 📄 License
+
+This project is intended for educational purposes.
