@@ -97,7 +97,7 @@ npm run dev
 
 ---
 
-## 🤖 AI Model
+## 🧠 AI Model
 
 This project uses:
 
