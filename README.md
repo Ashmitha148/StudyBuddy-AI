@@ -1,30 +1,32 @@
 # 📚 StudyBuddy AI
 
-StudyBuddy AI is an AI-powered learning assistant designed to simplify learning through intelligent conversations. It helps students analyze PDFs and images, interact using voice or text, generate summaries and MCQs, understand programming concepts, and study efficiently with AI-powered assistance.
----
+StudyBuddy AI is a web-based learning assistant built to make studying easier and more interactive. It allows students to ask questions, upload study materials, summarize content, generate MCQs, and understand programming concepts with the help of AI.
 
-## ✨ Features
-
-- 💬 AI-powered study assistant
-- 📄 Upload and analyze PDF documents
-- 📚 Multi-document support
-- 🖼️ Extract text from images (OCR)
-- 🎤 Voice input using microphone
-- 🧠 Generate summaries and short notes
-- ❓ Generate MCQs and revision questions     
-- 💻 Explain programming concepts with syntax-highlighted code
-- 📋 Copy individual code blocks with one click
-- 🌙 Dark mode support
-- 💾 Save chat history
-- 🔍 Search previous chats
-- 📝 Automatic chat title generation
-- 🔐 Firebase Authentication
-- ⚡ Real-time AI response streaming
-- 📱 Responsive user interface
+The application also supports PDF and image analysis, voice input, and maintains chat history to provide a smooth learning experience.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- AI-powered study assistant
+- PDF upload and analysis
+- Multiple document support
+- Image text extraction (OCR)
+- Voice input using microphone
+- Summary and short notes generation
+- MCQ generation for revision
+- Programming help with syntax-highlighted code
+- One-click code copy
+- Chat history and search
+- Automatic chat title generation
+- Dark mode
+- Firebase Authentication
+- Real-time AI responses
+- Responsive user interface
+
+---
+
+## Tech Stack
 
 ### Frontend
 - React.js
@@ -32,7 +34,7 @@ StudyBuddy AI is an AI-powered learning assistant designed to simplify learning 
 - JavaScript
 - CSS
 
-### Backend / AI
+### Backend & AI
 - Ollama
 - Qwen2.5:7B
 - Firebase Authentication
@@ -46,30 +48,20 @@ StudyBuddy AI is an AI-powered learning assistant designed to simplify learning 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
-│
 ├── components/
-│   ├── AskStudyBuddy.jsx
-│   ├── ChatWindow.jsx
-│   ├── MessageBubble.jsx
-│   ├── ChatSidebar.jsx
-│   ├── Header.jsx
-│   ├── InputBox.jsx
-│   ├── PdfUpload.jsx
-│   ├── ImageUpload.jsx
-│   └── ...
-│
 ├── assets/
 ├── firebase.js
+├── App.jsx
 └── main.jsx
 ```
 
 ---
 
-## 🚀 Installation
+## Getting Started
 
 Clone the repository
 
@@ -77,7 +69,7 @@ Clone the repository
 git clone https://github.com/Ashmitha148/StudyBuddy-AI.git
 ```
 
-Go to the project
+Navigate to the project folder
 
 ```bash
 cd StudyBuddy-AI
@@ -91,9 +83,13 @@ npm install
 
 Create a `.env` file and add your Firebase configuration.
 
-Start Ollama and make sure the `qwen2.5:7b` model is installed.
+Download the AI model
 
-Run the project
+```bash
+ollama pull qwen2.5:7b
+```
+
+Run the application
 
 ```bash
 npm run dev
@@ -101,54 +97,29 @@ npm run dev
 
 ---
 
-## 🧠 AI Model
+## AI Model
 
-This project uses:
-
-- Ollama
-- Qwen2.5:7B
+This project uses the **Qwen2.5:7B** model through **Ollama** to generate AI responses.
 
 ---
 
-## 📸 Main Features
+## Future Improvements
 
-- AI Chat
-- PDF Upload & Analysis
-- Multi-document Support
-- Image OCR
-- Voice Input
-- Notes & Summary Generation
-- MCQ Generation
-- Code Explanation
-- Syntax Highlighting
-- Code Copy Button
-- Chat History
-- Chat Search
-- Automatic Chat Titles
-- Dark Mode
-- Firebase Authentication
-
----
-
-## 📌 Future Improvements
-
-- Voice input
-- Speech output
-- Multiple AI models
-- Cloud chat synchronization
+- Text-to-Speech support
+- Flashcards for revision
 - Study planner
-- Flashcards
-- Performance analytics
+- Cloud chat synchronization
+- Multiple AI model support
 - Multi-language support
 
 ---
 
-## 👩‍💻 Developed By
+## Developed By
 
 **Ashmitha**
 
 ---
 
-## 📄 License
+## License
 
 This project is intended for educational purposes.
