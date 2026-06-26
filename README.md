@@ -1,4 +1,4 @@
-# 📚 StudyBuddy AI
+#  StudyBuddy AI
 
 React • Vite • JavaScript • Firebase • Ollama • Qwen2.5:7B • PDF.js • Tesseract.js
 
